@@ -1,0 +1,47 @@
+Exercises
+
+1.
+"A Clockwork Orange" -> text
+42 -> integer
+09/02/1945 -> date
+98.7 -> float
+$15.99 -> float
+
+2. A database would be used to store data for each searching, accessing and manipulating beyond the end of a application process. A text file is needed when storing news articles.
+
+3. SQL is a declarative language rather than a procedural.
+
+4. Database is a collection of data, stored and accessed by SQL. Data is stored in tables that have columns labeled accordingly with rows of values.
+
+5. Table holds a set of data which has columns labeled according to what is stored there, and rows that represent individual record of values.
+
+6. string, date and number
+
+7.
+Select the columns 'date' and 'amount' from the 'payment' table.
+date        amount
+2016-05-01  1500.00
+2016-05-10  37.00
+2016-05-15  124.93
+2016-05-23  54.72
+
+Select the column 'amount' from the 'payment' table where amount is greater than 500.
+amount
+1500.00
+
+Select all columns from the 'payment' table where the 'payee' is 'Mega Foods'.
+date        payee       amount  memo
+2016-05-15  Mega Foods  124.93  Groceries
+
+8.
+SELECT email, signup
+FROM users
+WHERE name = 'DeAndre Data';
+
+SELECT userid
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu';
+
+SELECT *
+FROM users
+WHERE userid = 4;
